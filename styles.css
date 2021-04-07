@@ -1,17 +1,126 @@
-* {
-  margin:0px;
-  padding:0px;
+h1,h2,h3{
+  font-family: 'Montserrat-bold', sans-serif;
 }
 
-#octocat {
-  display: block;
-  width:384px;
-  margin: 50px auto;
+h2{
+  font-size: 2.5rem;
+  line-height: 1.5;
+  padding:0 15%;
+
+}
+p{
+  color: #8f8f8f;
+}
+body{
+  font-family: 'Montserrat-black', sans-serif;
+  text-align: center;
+
 }
 
-p {
-  display: block;
-  width: 400px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+/*title*/
+
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+}
+
+.big-heading{
+  font-size: 4rem;
+  line-height: 1.5;
+  font-weight: bolder;
+  color: #fff;
+}
+
+/* navigation bar*/
+.navbar{
+  padding: 0 0 4.5rem 0;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+.nav-item{
+  padding:0 18px;
+}
+.downoad-button{
+  margin:5% 3% 5% 0;
+}
+/*features*/
+.title-image{
+  width:60%;
+  transform: rotate(25deg);
+  right: 30%;
+  position: absolute;
+}
+.col-lg-4{
+  padding:5%;
+
+}
+@media (max-width:1028px) {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+
+}
+
+#features{
+  background-color: #fff;
+  position: relative;
+}
+
+/*testimonials*/
+#testimonials{
+
+  background-color: #ef8172;
+  color: #fff;
+
+}
+.testimonial-image{
+  width: 10%;
+  border-radius:100%;
+  margin: 20px;
+}
+/*press*/
+#press{
+
+  background-color:  #ef8172;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+/*pricing*/
+#pricing{
+  padding:100px;
+
+}
+.pricing-col{
+  padding: 3% 2%;
+}
+  /* Call to Action */
+#cta{
+  background-color:  #ef8172;
+
+}
+.cta-text{
+  padding: 0 15%;
+  color: #fff;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+/*footer*/
+
+.footer-logo{
+  margin: 20px 10px;
 }
